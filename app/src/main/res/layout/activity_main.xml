@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/intent_implicito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/titulo1"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnCorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/intent_implicito"
+        android:layout_centerHorizontal="true"
+        android:text="Enviar Correo"
+        android:textSize="20dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnPagina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCorreo"
+        android:layout_centerHorizontal="true"
+        android:text="Visitar pagina"
+        android:textSize="20dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPagina"
+        android:layout_centerHorizontal="true"
+        android:text="Hacer llamada"
+        android:textSize="20dp"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTelefono"
+        android:layout_centerHorizontal="true"
+        android:text="Abrir Mapa"
+        android:textSize="20dp"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/titulo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Intent Explicitos"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnCamara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titulo2"
+        android:layout_centerHorizontal="true"
+        android:text="Abrir Camara"
+        android:textSize="20dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/btnPagina2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCamara"
+        android:layout_centerHorizontal="true"
+        android:text="Ir a Pagina 2"
+        android:textSize="20dp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/btnContactos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnPagina2"
+        android:layout_centerHorizontal="true"
+        android:text="Contactos"
+        android:textSize="20dp"
+        android:layout_margin="5dp"/>
+
+
+</RelativeLayout>
